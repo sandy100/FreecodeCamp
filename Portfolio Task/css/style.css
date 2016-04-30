@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header .navbar {
+    border-radius: 0;
+    background: #BCBBBA;
+    margin: 0;
+    border-width: 0 0 1px 0;
+}
+
+#header .navbar ul li a:hover {
+    background: #E0E0E0;
+}
+
+#main #title h1 {
+    font-size: 56px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+    color: #B2B2B2;
+}
+
+#main #title h4 {
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#main #title hr {
+    margin: 15px;
+    box-shadow: 1px 3px 1px #000;
+}
+
+#main #title .socialMediaBtns {
+    margin-top: 50px;
+}
+
+.socialButton {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background: #C0C0C0;
+    color: #000;
+    font-weight: bold;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 2px;
+    letter-spacing: 2px;
+    border-color: #DDD #000 #000 #DDD;
+    position: relative;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+.socialButton i {
+    font-size: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.socialButton:hover {
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+    border-color: #9E9E9D #3E3E3D #3E3E3D #9E9E9D;
+    transform: scale(1.2, 1.1);
+    -webkit-transform: scale(1.2, 1.1);
+    -moz-transform: scale(1.2, 1.1);
+}
+
+#main .slide {
+    position: relative;
+    overflow: hidden;
+    min-height: 500px;
+}
+
+.slide:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.slide,
+.slide:before {
+    background: 50% 50% / cover;
+}
+
+.header {
+    text-align: center;
+    color: #fff;
+}
+
+#title {
+    background-image: url("https://40.media.tumblr.com/1b916597d3e174399cb7adadddb66ede/tumblr_nt5uk4psl31ud7rr3o1_1280.jpg");
+    background-attachment: fixed;
+    padding: 150px 0;
+}
+
+.main-title h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main-title a {
+    color: #FFF;
+}
+
+.main-title p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#slide1,
+#slide2,
+#slide3 {
+    padding: 100px 0;
+}
+
+#slide1:before {
+	background: #6F909D;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+}
+
+#slide2 {
+    background-image: url("https://41.media.tumblr.com/92e61775d4c3edcc5145936e3703d125/tumblr_nt5uo9fH9y1ud7rr3o1_1280.jpg");
+    background-attachment: fixed;
+}
+
+#slide2 .title {
+    font-weight: bold;
+}
+
+#slide2 .title h3 {
+    font-size: 45px;
+}
+
+#slide2 .title h4 {
+    font-size: 20px;
+}
+
+#slide3 .socialButton {
+    margin: 0 0 20px;
+}
+
+#slide3 .col-md-2 {
+    min-width: 18%;
+}
+
+#slide3 .col-md-9 h4 {
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+#slide3:before {
+	background: #D6D2D3;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+}
+
+#slide4 {
+    background: #C7C7C7;
+    padding: 40px 15px;
+    font-weight: bold;
+}
+
+#slide4 ul {
+    overflow: hidden;
+}
+
+#slide4 ul li {
+    float: left;
+    margin: 0px 15px;
+    color: #000;
+}
+
+#slide4 p {
+    padding: 0 40px;
+    color: #77788D;
+}
+
+.portfolioContent .col-md-4 {
+    border: 1px solid #B5B7B8;
+    transition: 0.4s ease;
+}
+
+.portfolioContent .col-md-4:hover {
+    box-shadow: 5px 5px 5px #000;
+}
+
+.portfolioContent .col-md-4 .projectDetail {
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    color: #FFF;
+    padding: 20px 0;
+}
+
+.portfolioContent .col-md-4 .projectDetail h4 {
+    margin-top: 0;
+}
+
+.portfolioContent .recentWork {
+    margin: 0 0 10px;
+}
+
+.portfolioList {
+    overflow: hidden;
+    min-height: 300px;
+    background-size: 100% 100% !important;
+}
+
+#overlay {
+    background: rgba(0, 0, 0, .75);
+    text-align: center;
+    opacity: 0;
+    min-height: 300px;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+}
+
+.portfolioList:hover #overlay {
+    opacity: 1;
+}
+
+.imageOverlay i{
+	color: rgba(255, 255, 255, .85);
+    font-size: 6em;
+    margin-top: 1.2em;
+}
+#box1, #box2, #box3, #box4, #box5, #box6{
+	background: #DDD;
+}
